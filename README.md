@@ -6,3 +6,9 @@
 - 11022 A+B - 8 - <a href="https://www.acmicpc.net/problem/11022">바로가기</a>
 - 11719 그대로 출력하기 2 - <a href="https://www.acmicpc.net/problem/11719">바로가기</a>
 - 11720 숫자의 합 - <a href="https://www.acmicpc.net/problem/11720">바로가기</a>
+<details>
+<summary>제목</summary>
+<div>- 11022 A+B - 8 - <a href="https://www.acmicpc.net/problem/11022">바로가기</a></div>
+<div>- 11719 그대로 출력하기 2 - <a href="https://www.acmicpc.net/problem/11719">바로가기</a></div>
+<div>- 11720 숫자의 합 - <a href="https://www.acmicpc.net/problem/11720">바로가기</a></div>
+</details>
