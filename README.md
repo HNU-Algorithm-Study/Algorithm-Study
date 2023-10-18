@@ -1,8 +1,8 @@
 # Algorithm-Study
-임종혁 <img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=lklim79">
-성효경 <img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=rosa0000918">
-박수빈 <img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=sillilllib">
-이지혜 <img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=jihye8744">
+<img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=lklim79">
+<img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=rosa0000918">
+<img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=sillilllib">
+<img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=jihye8744">
 
 ## 1주차 입출력 문제 
 - 11022 A+B - 8 - <a href="https://www.acmicpc.net/problem/11022">바로가기</a>
