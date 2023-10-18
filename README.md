@@ -1,16 +1,16 @@
 # Algorithm-Study
 <div align="center">
     <a href="https://github.com/limjongheok" align="center">
-      <img src=https://img.shields.io/badge/LimJongheok-7b00bd?style=flat-square/>
+      <img src=https://img.shields.io/badge/LimJongheok-3162C7?style=flat-square/>
     </a>
     <a href="https://github.com/hyokyung918" align="center">
-      <img src=https://img.shields.io/badge/SeongHyokyung-5e5858?style=flat-square/>
+      <img src=https://img.shields.io/badge/SeongHyokyung-FFE08C?style=flat-square/>
     </a>
     <a href="https://github.com/sillilllib" align="center">
       <img src=https://img.shields.io/badge/ParkSubeen-e67c7c?style=flat-square/>
     </a>
     <a href="https://github.com/jihye8744" align="center">
-      <img src=https://img.shields.io/badge/LeeJihye-ededed?style=flat-square/>
+      <img src=https://img.shields.io/badge/LeeJihye-BCE55C?style=flat-square/>
     </a>
 </div>
 <img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=lklim79">
