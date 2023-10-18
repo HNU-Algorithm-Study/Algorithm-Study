@@ -16,7 +16,7 @@
     <a href="https://github.com/sillilllib" align="center">
       <img src=https://img.shields.io/badge/ParkSubeen-e67c7c?style=flat-square/>
     </a>
-    
+      <a href="https://github.com/jihye8744" align="center"> 
       <img src=https://img.shields.io/badge/LeeJihye-3162C7?style=flat-square/>
     </a>
 </div>
