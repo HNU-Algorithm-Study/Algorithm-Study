@@ -4,7 +4,7 @@
       <img src=https://img.shields.io/badge/LimJongheok-BCE55C?style=flat-square/>
     </a>
     <a href="https://github.com/hyokyung918" align="center">
-      <img src=https://img.shields.io/badge/SeongHyokyung-FFE08C?style=flat-square/>
+      <img src=https://img.shields.io/badge/SeongHyokyung-FFFF6C?style=flat-square/>
     </a>
     <a href="https://github.com/sillilllib" align="center">
       <img src=https://img.shields.io/badge/ParkSubeen-e67c7c?style=flat-square/>
