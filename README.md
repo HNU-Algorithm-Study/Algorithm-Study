@@ -35,3 +35,16 @@
 - 1924 2007년 - <a href="https://www.acmicpc.net/problem/1924">바로가기</a>
 - 8393 합 - <a href="https://www.acmicpc.net/problem/8393">바로가기</a>
 - 10818- <a href="https://www.acmicpc.net/problem/10818">바로가기</a>
+
+<br/>
+
+## 2주차 자료구조 문제(stack, queue, dequeue) 
+- 10828  스택 - <a href="https://www.acmicpc.net/problem/10828">바로가기</a>
+- 9012 괄호 - <a href="https://www.acmicpc.net/problem/9012">바로가기</a>
+- 9093 단어 뒤집기 - <a href="https://www.acmicpc.net/problem/9093">바로가기</a>
+- 1874 스택 수열 - <a href="https://www.acmicpc.net/problem/1874">바로가기</a>
+- 10845 큐 - <a href="https://www.acmicpc.net/problem/10845">바로가기</a>
+- 10866 덱 - <a href="https://www.acmicpc.net/problem/10866">바로가기</a>
+- 17413 단어 뒤집기 2 - <a href="https://www.acmicpc.net/problem/17413">바로가기</a>
+- 1158 요세푸스 문제 - <a href="https://www.acmicpc.net/problem/1158">바로가기</a>
+
