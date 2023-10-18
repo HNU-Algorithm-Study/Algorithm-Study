@@ -4,6 +4,7 @@ import java.util.*;
 public class Boj_10816 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         StringTokenizer st;
         int n = Integer.parseInt(br.readLine());
         int[] arr = new int[n];
@@ -16,42 +17,49 @@ public class Boj_10816 {
 
         int m = Integer.parseInt(br.readLine());
         st = new StringTokenizer(br.readLine());
+
         for (int i=0; i<m; i++) {
             int value = Integer.parseInt(st.nextToken());
-            System.out.printf(findValue(arr, value, 0, n-1) + " ");
+
+            int lowIndex = findLowerIndex(arr, value);
+            int highIndex = findHigherIndex(arr, value);
+            int cnt = highIndex - lowIndex;
+
+            bw.write(cnt + " ");
         }
+        br.close();
+        bw.close();
     }
 
-    public static int findValue(int[] arr, int value, int start, int finish) {
-        int mid = 0;
-        while (start <= finish) {
-            mid = (start+finish) / 2;
+    public static int findLowerIndex(int[] arr, int value) {
+        int lo = 0;
+        int hi = arr.length;
 
-            if (value == arr[mid]) {
-                return calcFreq(arr, value, mid);
-            } else if (value < arr[mid]) {
-                return findValue(arr, value, 0, mid-1);
+        while (lo < hi) {
+            int mid = lo + (hi-lo)/2;
+
+            if (arr[mid] >= value) {
+                hi = mid;
             } else {
-                return findValue(arr, value, mid+1, 0);
+                lo = mid + 1;
             }
         }
-        return 0;
+        return lo;
     }
 
-    public static int calcFreq(int[] arr, int value, int index) {
-        int freq = 1;
-        int idx = index-1;
+    public static int findHigherIndex(int[] arr, int value) {
+        int lo = 0;
+        int hi = arr.length;
 
-        while (arr[idx] == value) {
-            freq++;
-            idx--;
-        }
-        idx = index+1;
-        while (arr[idx] == value) {
-            freq++;
-            idx++;
-        }
+        while (lo<hi) {
+            int mid = lo + (hi-lo)/2;
 
-        return freq;
+            if (arr[mid] > value) {
+                hi = mid;
+            } else {
+                lo = mid + 1;
+            }
+        }
+        return lo;
     }
 }
