@@ -6,6 +6,8 @@
     <a href="https://github.com/hyokyung918" align="center">
       <img src=https://img.shields.io/badge/SeongHyokyung-FFFF6C?style=flat-square/>
     </a>
+</div>
+<div align="center">
     <img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=lklim79">
     <img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=rosa0000918">
 </div>
@@ -17,6 +19,8 @@
     <a href="https://github.com/jihye8744" align="center">
       <img src=https://img.shields.io/badge/LeeJihye-3162C7?style=flat-square/>
     </a>
+</div>
+<div align="center">
     <img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=sillilllib">
     <img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=jihye8744">
 </div>
