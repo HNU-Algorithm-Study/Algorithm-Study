@@ -22,7 +22,7 @@
 </div>
 <div align="center">
     <img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=sillilllib">
-    <img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=jihye8744">
+    <img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=dlwlgp8744">
     
 </div>
 
