@@ -6,17 +6,20 @@
     <a href="https://github.com/hyokyung918" align="center">
       <img src=https://img.shields.io/badge/SeongHyokyung-FFFF6C?style=flat-square/>
     </a>
+    <img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=lklim79">
+    <img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=rosa0000918">
+</div>
+
+<div align="center">
     <a href="https://github.com/sillilllib" align="center">
       <img src=https://img.shields.io/badge/ParkSubeen-e67c7c?style=flat-square/>
     </a>
     <a href="https://github.com/jihye8744" align="center">
       <img src=https://img.shields.io/badge/LeeJihye-3162C7?style=flat-square/>
     </a>
+    <img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=sillilllib">
+    <img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=jihye8744">
 </div>
-<img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=lklim79">
-<img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=rosa0000918">
-<img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=sillilllib">
-<img  src="http://mazassumnida.wtf/api/v2/generate_badge?boj=jihye8744">
 
 ## 1주차 입출력 문제 
 - 11022 A+B - 8 - <a href="https://www.acmicpc.net/problem/11022">바로가기</a>
