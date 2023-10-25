@@ -48,3 +48,16 @@
 - 17413 단어 뒤집기 2 - <a href="https://www.acmicpc.net/problem/17413">바로가기</a>
 - 1158 요세푸스 문제 - <a href="https://www.acmicpc.net/problem/1158">바로가기</a>
 
+
+<br/>
+
+## 3주차 그래프 문제 (dfs , bfs)
+
+- 1260  DFS와 BFS - <a href="https://www.acmicpc.net/problem/1260">바로가기</a>
+- 11724 연결 요소의 개수 - <a href="https://www.acmicpc.net/problem/11724">바로가기</a>
+- 1707 이분 그래프 - <a href="https://www.acmicpc.net/problem/1707">바로가기</a>
+
+### 트리 순회 문제 
+- 1918  후위 표기식 - <a href="https://www.acmicpc.net/problem/1918">바로가기</a>
+- 1935 후위 표기식2 - <a href="https://www.acmicpc.net/problem/1935">바로가기</a>
+
