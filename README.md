@@ -34,7 +34,7 @@
 - 2739 구구단 - <a href="https://www.acmicpc.net/problem/2739">바로가기</a>
 - 1924 2007년 - <a href="https://www.acmicpc.net/problem/1924">바로가기</a>
 - 8393 합 - <a href="https://www.acmicpc.net/problem/8393">바로가기</a>
-- 10818- <a href="https://www.acmicpc.net/problem/10818">바로가기</a>
+- 10818 최소, 최대 - <a href="https://www.acmicpc.net/problem/10818">바로가기</a>
 
 <br/>
 
