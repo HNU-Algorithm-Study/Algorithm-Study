@@ -3,7 +3,7 @@ using System.Text;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Boj_17413(string[] args)
     {
         string input = Console.ReadLine();
         string result = ReverseWordsInString(input);
