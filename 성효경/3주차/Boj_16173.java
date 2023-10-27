@@ -4,8 +4,8 @@ import java.util.*;
 public class Boj_16173 {
 
     static int n;
-    static boolean isPossible = false;
 
+    static boolean[][] visited;
     static int[][] arr;
 
     public static void main(String[] args) throws IOException {
@@ -13,6 +13,7 @@ public class Boj_16173 {
         StringTokenizer st;
 
         n = Integer.parseInt(br.readLine());
+        visited = new boolean[n+1][n+1];
         arr = new int[n+1][n+1];
 
         for (int i=1; i<=n; i++) {
@@ -24,38 +25,34 @@ public class Boj_16173 {
             }
         }
 
-        dfs(1, 1);
-        System.out.println(isPossible ? "HaruHaru" : "Hing");
+        System.out.println(dfs() ? "HaruHaru" : "Hing");
     }
 
-    public static void dfs(int startRaw, int startCul) {
+    public static boolean dfs() {
 
-        Stack<Integer> stack = new Stack<>();
-        stack.add(arr[startRaw][startCul]);
-        int sum = 0;
+        Stack<int[]> stack = new Stack<>();
+        stack.push(new int[]{1, 1});
+        visited[1][1] = true;
 
-        while (!stack.empty()) {
-            stack.pop();
-            for (int i=n; i>=2; i--) {
-                stack.add(arr[startRaw][startCul+i]);
+        while (!stack.isEmpty()) {
+            int[] current = stack.pop();
+            int x = current[0];
+            int y = current[1];
+            int jump = arr[x][y];
+
+            if (jump == -1) {
+                return true;
+            }
+
+            if (x + jump <= n && !visited[x+jump][y]) {
+                visited[x+jump][y] = true;
+                stack.push(new int[]{x+jump, y});
+            }
+            if (y + jump <= n && !visited[x][y+jump]) {
+                visited[x][y+jump] = true;
+                stack.push(new int[]{x, y+jump});
             }
         }
-
-        if (isPossible)
-            return;
-
-        int x = arr[startRaw][startCul];
-
-        if (x == -1) {
-            isPossible = true;
-            return;
-        }
-
-        if ((startCul + x) <= n) {
-            dfs(startRaw, startCul+x);
-        }
-        if ((startRaw + x) <= n) {
-            dfs(startRaw+x, startCul);
-        }
+        return false;
     }
 }
