@@ -1,57 +1,101 @@
 package 알고리즘2주차;
+
 import java.io.*;
-import java.nio.Buffer;
-import  java.util.*;
+import java.util.*;
 public class boj_1021 {
-    private  static  int count;
-    public static  void main(String[] args) throws  IOException{
+    public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
+        LinkedList<Integer> list = new LinkedList();
+
         st = new StringTokenizer(br.readLine());
+
         int n = Integer.parseInt(st.nextToken());
         int m = Integer.parseInt(st.nextToken());
-        LinkedList<Integer> dq = new LinkedList();
+
         for(int i=1; i<=n; i++){
-
-            dq.offer(i);
+            list.add(i);
         }
-
         st = new StringTokenizer(br.readLine());
 
+        int count = 0;
         for(int i=0; i<m; i++){
             int a = Integer.parseInt(st.nextToken());
 
-            int idx = dq.indexOf(a);
+            int idx = list.indexOf(a);
 
-            int h;
-            count = 0;
-            if(dq.size()%2 ==0){
-                h = dq.size()/2 -1;
+
+            if(list.size()%2 == 0){
+                int mi = list.size()/2-1;
+
+                if(list.get(0) == a){
+
+                    list.removeFirst();
+                }else{
+                    if(idx<= mi){
+                        for(int k=0; k<idx; k++){
+                            int r = list.removeFirst();
+                            list.addLast(r);
+
+                            count ++;
+
+                        }
+                        list.removeFirst();
+
+                    }else{
+                        for(int k = list.size(); k>idx; k--){
+                            int r= list.removeLast();
+                            list.addFirst(r);
+
+                            count++;
+
+                        }
+
+                        list.removeFirst();
+
+                    }
+                }
+
             }else{
-                h = dq.size()/2;
+                int mi = list.size()/2;
+
+                if(list.get(0) == a){
+                    list.removeFirst();
+                }else{
+                    if(idx<=mi){
+                        for(int k=0; k<idx; k++){
+                            int r = list.removeFirst();
+                            list.addLast(r);
+
+                            count ++;
+
+                        }
+
+                        list.removeFirst();
+
+                    }else{
+                        for(int k = list.size(); k>idx; k--){
+                            int r= list.removeLast();
+                            list.addFirst(r);
+
+                            count ++;
+
+                        }
+
+                        list.removeFirst();
+
+                    }
+                }
+
+
             }
 
 
 
-            if(i<=h){
-                for(int k =0; k<idx; k++){
-                    int temp = dq.pollFirst();
-                    dq.offerLast(temp);
-                    count++;
-                }
-            }else{
-                for(int j = 0; j < dq.size() - idx; j++) {
-                    int temp = dq.pollLast();
-                    dq.offerFirst(temp);
-                    count++;
-                }
-            }
-            dq.pollFirst();
+
+
+
         }
         System.out.println(count);
-
-
-
-
     }
 }
