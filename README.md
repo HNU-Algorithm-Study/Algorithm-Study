@@ -61,3 +61,18 @@
 - 1918  후위 표기식 - <a href="https://www.acmicpc.net/problem/1918">바로가기</a>
 - 1935 후위 표기식2 - <a href="https://www.acmicpc.net/problem/1935">바로가기</a>
 
+
+## 4주차 그래프 및 브로드포스 문제 (dfs , bfs)
+
+### 브로드 포스 문제 
+- 10974 모든 순열 - <a href="https://www.acmicpc.net/problem/10974">바로가기</a>
+- 2468 안전 영역 - <a href="https://www.acmicpc.net/problem/2468">바로가기</a>
+- 14225 부분수열의 합 - <a href="https://www.acmicpc.net/problem/14225">바로가기</a>
+- 18290 NM과 K (1) - <a href="https://www.acmicpc.net/problem/18290">바로가기</a>
+- 1543 문서 검색 - <a href="https://www.acmicpc.net/problem/1543">바로가기</a>
+
+### 그래프 문제 
+- 1012 유기농 배추 - <a href="https://www.acmicpc.net/problem/1012">바로가기</a>
+- 7576 토마토 - <a href="https://www.acmicpc.net/problem/7576">바로가기</a>
+- 14940 쉬운 최단거리 - <a href="https://www.acmicpc.net/problem/14940">바로가기</a>
+- 16928 뱀과 사다리 게임 - <a href="https://www.acmicpc.net/problem/16928">바로가기</a>
