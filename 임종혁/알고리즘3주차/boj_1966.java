@@ -1,3 +1,5 @@
+package 알고리즘3주차;
+
 import java.io.*;
 import java.util.*;
 public class boj_1966 {

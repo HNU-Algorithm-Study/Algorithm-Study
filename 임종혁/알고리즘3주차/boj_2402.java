@@ -28,6 +28,7 @@ public class boj_2402 {
 
 
         tree = new long[treeSize+1];
+        System.out.println(tree.length);
 
         init(0,n-1,1); // 세그먼트 트리 초기화
 
@@ -112,7 +113,7 @@ public class boj_2402 {
         if(l <= start && end <= r )return tree[node];
 
         int mid = (start+end)/2;
-        System.out.println(start + " start1 " + end + " end1 ");
+
 
         return sum(start, mid, node*2, l, r) + sum(mid+1, end, node*2+1, l, r);
     }
