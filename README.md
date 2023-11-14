@@ -77,3 +77,12 @@
 - 7576 토마토 - <a href="https://www.acmicpc.net/problem/7576">바로가기</a>
 - 14940 쉬운 최단거리 - <a href="https://www.acmicpc.net/problem/14940">바로가기</a>
 - 16928 뱀과 사다리 게임 - <a href="https://www.acmicpc.net/problem/16928">바로가기</a>
+
+<br/>
+
+## 5주차 백트래킹 문제 
+- 10974 모든 순열 - <a href="https://www.acmicpc.net/problem/10974">바로가기</a>
+- 18290 NM과 K (1) - <a href="https://www.acmicpc.net/problem/18290">바로가기</a>
+- 15650 N과 M (2) - <a href="https://www.acmicpc.net/problem/15650">바로가기</a>
+- 15652 N과 M (4) - <a href="https://www.acmicpc.net/problem/15652">바로가기</a>
+- 14225 부분수열의 합 - <a href="https://www.acmicpc.net/problem/14225">바로가기</a>
