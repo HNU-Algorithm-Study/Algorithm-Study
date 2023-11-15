@@ -86,3 +86,12 @@
 - 15650 N과 M (2) - <a href="https://www.acmicpc.net/problem/15650">바로가기</a>
 - 15652 N과 M (4) - <a href="https://www.acmicpc.net/problem/15652">바로가기</a>
 - 14225 부분수열의 합 - <a href="https://www.acmicpc.net/problem/14225">바로가기</a>
+
+<br/>
+
+## 6주차 이분탐색 문제 
+- 2805 나무 자르기 - <a href="https://www.acmicpc.net/problem/2805">바로가기</a>
+- 1654 랜선 자르기 - <a href="https://www.acmicpc.net/problem/1654">바로가기</a>
+- 2343 기타 레슨 - <a href="https://www.acmicpc.net/problem/2343">바로가기</a>
+- 2110 공유기 설치 - <a href="https://www.acmicpc.net/problem/2110">바로가기</a>
+- 1300 K번째 수 - <a href="https://www.acmicpc.net/problem/1300">바로가기</a>
