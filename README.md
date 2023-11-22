@@ -95,3 +95,12 @@
 - 2343 기타 레슨 - <a href="https://www.acmicpc.net/problem/2343">바로가기</a>
 - 2110 공유기 설치 - <a href="https://www.acmicpc.net/problem/2110">바로가기</a>
 - 1300 K번째 수 - <a href="https://www.acmicpc.net/problem/1300">바로가기</a>
+
+<br/>
+
+## 7주차 다이나믹 프로그래밍(dp) 문제 
+ - 10826 피보나치 수 4 - <a href="https://www.acmicpc.net/problem/10826">바로가기</a>
+ - 9461 파도반 수열 - <a href="https://www.acmicpc.net/problem/9461">바로가기</a>
+ - 11053 가장 긴 증가하는 부분 수열 - <a href="https://www.acmicpc.net/problem/11053">바로가기</a>
+ - 9251 LCS - <a href="https://www.acmicpc.net/problem/9251">바로가기</a>
+ - 13398 연속합 2 - <a href="https://www.acmicpc.net/problem/13398">바로가기</a>
