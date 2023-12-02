@@ -104,3 +104,13 @@
  - 11053 가장 긴 증가하는 부분 수열 - <a href="https://www.acmicpc.net/problem/11053">바로가기</a>
  - 9251 LCS - <a href="https://www.acmicpc.net/problem/9251">바로가기</a>
  - 13398 연속합 2 - <a href="https://www.acmicpc.net/problem/13398">바로가기</a>
+
+<br/>
+
+## 8주차 그리디(탐욕법) 알고리즘 문제 
+ - 30700 KOREA 문자열 만들기 - <a href="https://www.acmicpc.net/problem/30700">바로가기</a>
+ - 25176 청정수열 (Easy) - <a href="https://www.acmicpc.net/problem/25176">바로가기</a>
+ - 1417 국회의원 선거 - <a href="https://www.acmicpc.net/problem/1417">바로가기</a>
+ - 14916 거스름돈 - <a href="https://www.acmicpc.net/problem/14916">바로가기</a>
+ - 2839 설탕 배달 - <a href="https://www.acmicpc.net/problem/2839">바로가기</a>
+ 
