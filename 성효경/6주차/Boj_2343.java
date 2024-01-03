@@ -14,7 +14,6 @@ public class Boj_2343 {
         n = Integer.parseInt(st.nextToken());
         lectureArr = new int[n];
         m = Integer.parseInt(st.nextToken());
-        int[] bluerayArr = new int[m];
 
         int max = 0;
         int min = 0;
